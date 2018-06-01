@@ -13,6 +13,7 @@
 7.  Feature css
 8.  Class css
 9.  Gallery css
+10. Notifications css
 10. Products css
 11. Call-to-action css
 12. Plans css
@@ -23,6 +24,8 @@
 17. Back To Top css
 18. News Page css
 19. News Details Page css 
+20. About header css
+
 -------------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Passion+One:400,700,900');
@@ -1039,6 +1042,7 @@ p {
     background-color: transparent;
 }
 
+
 .menuBar .navbar-default .navbar-nav>li>a {
     color: #201f1f;
     font-size: 16px;
@@ -1298,6 +1302,7 @@ header.fixed .menuBar .navbar-right {
 
 .box {
     position: relative;
+    margin: 10px;
 }
 
 .boxInfo {
@@ -2885,15 +2890,21 @@ header.fixed .menuBar .navbar-right {
 
 .inner-banner .bannerText {
     left: 0;
-    text-align: center;
+    text-align: left;
     padding: 90px 0;
 }
 
 .inner-banner .bannerText h1 {
     color: #ffd322;
-    text-transform: uppercase;
+    font-size: 80px;
     font-style: italic;
     font-family: 'Passion One', cursive;
+}
+
+.inner-banner .bannerText p {
+    color: #ffd322;
+    font-style: italic;
+    
 }
 
 .inner-banner .bannerText ol {
