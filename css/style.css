@@ -679,7 +679,7 @@ a:focus {
 
 .fIcons:before {
     font-size: 72px;
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .fIcons {
@@ -851,17 +851,17 @@ p {
 }
 
 .sectionTitle span {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 ::-moz-selection {
     color: #fff;
-    background: #ffe402;
+    background: #ff4500;
 }
 
 ::selection {
     color: #fff;
-    background: #ffe402;
+    background: #ff4500;
 }
 
 @media (min-width: 1400px) {
@@ -908,7 +908,7 @@ p {
 }
 
 .top-head ul li a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .top-head ul li {
@@ -958,7 +958,7 @@ p {
     right: 0;
     width: 0;
     height: 0;
-    border-bottom: 100px solid #ffe402;
+    border-bottom: 100px solid #ff4500;
     border-left: 430px solid transparent;
 }
 
@@ -967,7 +967,7 @@ p {
     margin: 0 78px 0 0 !important;
     height: auto;
     line-height: normal;
-    background-color: #ffe402;
+    background-color: #ff4500;
     position: relative;
     z-index: 1;
 }
@@ -991,7 +991,7 @@ p {
     position: absolute;
     top: 0;
     right: 0;
-    background-color: #ffe402;
+    background-color: #ff4500;
     transform: skew(-43deg);
     -webkit-transform: skew(-43deg);
     -moz-transform: skew(-43deg);
@@ -1001,7 +1001,7 @@ p {
 
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 .menuBar .navbar-default {
@@ -1046,7 +1046,7 @@ p {
 .menuBar .navbar-default .navbar-nav>.active>a:hover,
 .menuBar .navbar-default .navbar-nav>li>a:focus,
 .menuBar .navbar-default .navbar-nav>li>a:hover {
-    color: #ffe402;
+    color: #ff4500;
     background-color: transparent;
 }
 
@@ -1129,7 +1129,7 @@ header.fixed .menuBar .navbar-right {
 
 .banner h1 {
     text-transform: uppercase;
-    color: #ffe402;
+    color: #ff4500;
     font-style: italic;
     font-family: 'Passion One', cursive;
     line-height: 122px;
@@ -1160,7 +1160,7 @@ header.fixed .menuBar .navbar-right {
     position: absolute;
     top: 16px;
     right: 100%;
-    background-color: #ffe402;
+    background-color: #ff4500;
     transform: skew(-17.9deg);
     -webkit-transform: skew(-17.9deg);
     -moz-transform: skew(-17.9deg);
@@ -1300,7 +1300,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .upcoming-fill-btn .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
@@ -1320,7 +1320,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .box.box-1 {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 .box.box-2 {
@@ -1394,7 +1394,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .feature h4 {
-    color: #ffe402;
+    color: #ff4500;
     text-transform: uppercase;
     font-style: italic;
     font-family: 'Passion One', cursive;
@@ -1422,7 +1422,7 @@ header.fixed .menuBar .navbar-right {
     top: 5px;
     height: 73px;
     width: 100%;
-    background-color: #ffe402;
+    background-color: #ff4500;
     transform: skew(-29.6deg);
     -webkit-transform: skew(-29.6deg);
     -moz-transform: skew(-29.6deg);
@@ -1444,7 +1444,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .button-group {
-    background-color: #ffe402;
+    background-color: #ff4500;
     display: inline-block;
     position: relative;
     transform: skew(-29.6deg);
@@ -1502,7 +1502,7 @@ header.fixed .menuBar .navbar-right {
     transition: 0.3s ease;
     height: 100%;
     box-shadow: 10px 10px 35px -1px rgba(0, 0, 0, 0.3);
-    background-color: #ffe402;
+    background-color: #ff4500;
 
 }
 
@@ -1518,7 +1518,7 @@ header.fixed .menuBar .navbar-right {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #ffe402;
+    background-color: #ff4500;
     content: '';
     -webkit-transition: -webkit-transform 0.3s;
     transition: transform 0.3s;
@@ -1618,7 +1618,7 @@ header.fixed .menuBar .navbar-right {
     padding: 14px;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ffe402;
+    color: #ff4500;
     font-weight: 700;
     letter-spacing: 0.72px;
     /*-webkit-transform: perspective(300px) rotateX(29.6deg);
@@ -1693,7 +1693,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .element-btn .element-fill-btn {
-    background-color: #ffe402;
+    background-color: #ff4500;
     border: 0;
     color: #fff;
     padding: 13px 5px;
@@ -1708,12 +1708,12 @@ header.fixed .menuBar .navbar-right {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
-    box-shadow: 0px 10px 50px -10px rgba(255, 228, 2, 1);
+    box-shadow: 0px 10px 50px -10px rgba(255, 69, 0, 1);
    
 }
 
 .fill-btn {
-    background-color: #ffe402;
+    background-color: #ff4500;
     border: 0;
     color: #fff;
     padding: 13px 5px;
@@ -1735,7 +1735,7 @@ header.fixed .menuBar .navbar-right {
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -ms-transition: all 0.3s ease-in-out;
-    box-shadow: 0px 10px 50px -10px rgba(255, 228, 2, 1);
+    box-shadow: 0px 10px 50px -10px rgba(255, 69, 0, 1);
 }
 
 .fill-btn:hover,
@@ -1798,11 +1798,11 @@ header.fixed .menuBar .navbar-right {
 
 .gallery-button-group button.button.checked,
 .gallery-button-group button:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .gallery-button-group button.button.is-checked {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .gImg .circle-icon i {
@@ -1810,7 +1810,7 @@ header.fixed .menuBar .navbar-right {
     font-size: 12px;
     position: relative;
     border-radius: 50%;
-    background-color: #ffe402;
+    background-color: #ff4500;
     width: 34px;
     height: 34px;
     text-align: center;
@@ -1821,7 +1821,7 @@ header.fixed .menuBar .navbar-right {
     visibility: hidden;
     width: 48px;
     height: 48px;
-    background-color: rgba(255, 228, 2, 0.5);
+    background-color: rgba(255, 69, 0, 0.5);
     text-align: center;
     line-height: 48px;
     border-radius: 50%;
@@ -2000,7 +2000,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .notification-fill-btn .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
@@ -2043,7 +2043,7 @@ header.fixed .menuBar .navbar-right {
 .priceBox h4 {
     display: inline-block;
     font-size: 16px;
-    color: #ffe402;
+    color: #ff4500;
     margin: 20.5px 0 !important;
 }
 
@@ -2098,7 +2098,7 @@ header.fixed .menuBar .navbar-right {
     content: "\f178";
     display: inline-block;
     font-size: 30px;
-    color: #ffe402;
+    color: #ff4500;
     line-height: normal;
     transform: skew(29.6deg);
     -webkit-transform: skew(29.6deg);
@@ -2117,7 +2117,7 @@ header.fixed .menuBar .navbar-right {
     content: "\f177";
     display: inline-block;
     font-size: 30px;
-    color: #ffe402;
+    color: #ff4500;
     line-height: normal;
     transform: skew(29.6deg);
     -webkit-transform: skew(29.6deg);
@@ -2246,14 +2246,14 @@ header.fixed .menuBar .navbar-right {
 .call-to-action h3 {
     text-align: center;
     font-weight: 900;
-    color: #ffe402;
+    color: #ff4500;
     font-style: italic;
 }
 
 .call-to-action h3 span {
     text-align: center;
     font-weight: 600;
-    color: #ffe402;
+    color: #ff4500;
     font-style: italic;
 }
 .call-to-action p {
@@ -2273,7 +2273,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .call-to-action .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
@@ -2293,7 +2293,7 @@ header.fixed .menuBar .navbar-right {
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #ffe402;
+    background-color: #ff4500;
     z-index: 1;
 }
 
@@ -2305,7 +2305,7 @@ header.fixed .menuBar .navbar-right {
     height: 100%;
     top: 0;
     right: 0;
-    background: #ffe402;
+    background: #ff4500;
     transform-origin: bottom left;
     -ms-transform: skew(-29.6deg, 0deg);
     -webkit-transform: skew(-29.6deg, 0deg);
@@ -2332,9 +2332,9 @@ header.fixed .menuBar .navbar-right {
     height: 100%;
     top: 0;
     left: -80px;
-    background: #ffe402;
-    border-bottom: 3px solid #ffe402;
-    border-right: 20px solid #ffe402;
+    background: #ff4500;
+    border-bottom: 3px solid #ff4500;
+    border-right: 20px solid #ff4500;
     transform-origin: bottom left;
     -ms-transform: skew(30deg, 0deg);
     -webkit-transform: skew(30deg, 0deg);
@@ -2350,7 +2350,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .skewback {
-    background: #ffe402;
+    background: #ff4500;
     width: 100%;
     height: 100%;
 }
@@ -2403,7 +2403,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .pricebox .midelement {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 .pricebox .midelement .plan-top,
@@ -2412,7 +2412,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .pricebox .midelement h5 {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .pricebox .midelement .skewback {
@@ -2434,8 +2434,8 @@ header.fixed .menuBar .navbar-right {
 }
 
 .pricebox .midelement .fill-btn:hover {
-    background-color: #ffe402;
-    box-shadow: 0px 10px 50px -10px rgb(255, 228, 2);
+    background-color: #ff4500;
+    box-shadow: 0px 10px 50px -10px rgb(255, 69, 0);
     color: #201f1f;
 }
 
@@ -2497,12 +2497,12 @@ header.fixed .menuBar .navbar-right {
     display: block;
     width: 100%;
     height: 2px;
-    background-image: -moz-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 228, 2) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
-    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 0, 0, 0)), color-stop(15%, rgba(255, 0, 0, 0)), color-stop(50%, rgb(255, 228, 2)), color-stop(85%, rgba(255, 0, 0, 0)), color-stop(100%, rgba(255, 0, 0, 0)));
-    background-image: -webkit-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 228, 2) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
-    background-image: -o-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 228, 2) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
-    background-image: -ms-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 228, 2) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
-    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 228, 2) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -moz-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 69, 0) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 0, 0, 0)), color-stop(15%, rgba(255, 0, 0, 0)), color-stop(50%, rgb(255, 69, 0)), color-stop(85%, rgba(255, 0, 0, 0)), color-stop(100%, rgba(255, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 69, 0) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 69, 0) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 69, 0) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(255, 69, 0) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
 }
 
 .clientSlide .item {
@@ -2517,7 +2517,7 @@ header.fixed .menuBar .navbar-right {
 
 .clientSlide .item h4 {
     font-weight: 900;
-    color: #ffe402;
+    color: #ff4500;
     text-transform: uppercase;
     font-style: italic;
     margin-top: 52px;
@@ -2540,7 +2540,7 @@ header.fixed .menuBar .navbar-right {
     display: inline-block !important;
     font-size: 0;
     width: 60px;
-    background-color: #ffe402;
+    background-color: #ff4500;
     transform: skew(-29.6deg);
     -webkit-transform: skew(-29.6deg);
     -moz-transform: skew(-29.6deg);
@@ -2626,7 +2626,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .news .item ul li a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .news-comments a img {
@@ -2695,7 +2695,8 @@ header.fixed .menuBar .navbar-right {
 }
 
 .footer_logo {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
+    padding-left: 10px;
     
 }
 
@@ -2727,7 +2728,7 @@ header.fixed .menuBar .navbar-right {
 
 .form-Box .b_effect:focus,
 .subscribe form input:focus {
-    border-color: #ffe402;
+    border-color: #ff4500;
 }
 
 .form-Box .fill-btn {
@@ -2741,9 +2742,9 @@ header.fixed .menuBar .navbar-right {
 
 .form-Box .fill-btn:hover,
 .subscribe form .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     color: #201f1f;
-    box-shadow: 0px 10px 50px -10px rgb(255, 228, 2);
+    box-shadow: 0px 10px 50px -10px rgb(255, 69, 0);
 }
 
 .fTitle {
@@ -2755,7 +2756,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .fTitle span {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .contact-address ul li,
@@ -2787,7 +2788,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .contact-address ul li a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .subscribe form {
@@ -2849,7 +2850,7 @@ header.fixed .menuBar .navbar-right {
     height: 43px;
     display: inline-block;
     position: absolute;
-    border: 1px solid #ffe402;
+    border: 1px solid #ff4500;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -2865,14 +2866,15 @@ header.fixed .menuBar .navbar-right {
 }
 
 .social-icons ul li:hover:before {
-    background: #ffe402;
+    background: #ff4500;
 }
 
 
 /* 16. Copyright css */
 
 .copyright {
-    padding: 20px 0;
+    
+    padding: 10px 0;
     text-align: center;
     
 }
@@ -2880,11 +2882,11 @@ header.fixed .menuBar .navbar-right {
 .copyright h6 {
     font-size: 14px;
     font-style: italic;
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .copyright h6 a {
-    color: #ffe402;
+    color: #ff4500;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
@@ -2923,7 +2925,7 @@ header.fixed .menuBar .navbar-right {
     height: 40px;
     display: inline-block;
     position: absolute;
-    background: #ffe402;
+    background: #ff4500;
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     -moz-transform: rotate(135deg);
@@ -3024,7 +3026,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .inner-banner .bannerText ol a {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .inner-banner .bannerText ol li {
@@ -3091,7 +3093,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .hot-news figure figcaption a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .hot-news figure {
@@ -3136,12 +3138,12 @@ header.fixed .menuBar .navbar-right {
 
 .posted-by span a {
     text-decoration: underline;
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .posted-by .badge {
     color: #fff;
-    background-color: #ffe402;
+    background-color: #ff4500;
     padding: 4.5px 16px;
 }
 
@@ -3166,7 +3168,7 @@ header.fixed .menuBar .navbar-right {
 .widget_recent_entries .bpost span a {
     text-decoration: underline;
     text-transform: uppercase;
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .nlist-info p a:hover,
@@ -3200,7 +3202,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .nlist-bottom .social li a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .nlist-bottom .social li:first-child {
@@ -3265,7 +3267,7 @@ header.fixed .menuBar .navbar-right {
     float: none;
     width: auto;
     display: inline-block;
-    background-color: #ffe402;
+    background-color: #ff4500;
     padding: 4.5px 16px;
 }
 
@@ -3286,7 +3288,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .list-status .nlist-info .nlist-title a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .list-link .nlist-title a {
@@ -3325,7 +3327,7 @@ header.fixed .menuBar .navbar-right {
 #owl-news-list .owl-prev {
     display: block !important;
     font-size: 0;
-    background-color: #ffe402;
+    background-color: #ff4500;
     transform: skew(-29.6deg);
     -webkit-transform: skew(-29.6deg);
     -moz-transform: skew(-29.6deg);
@@ -3432,7 +3434,7 @@ header.fixed .menuBar .navbar-right {
 }
 
 .widget_search {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 .widget_search form button {
@@ -3517,7 +3519,7 @@ input[type=radio].with-font#gender2 ~ label:before {
 }
 
 input[type=radio].with-font:checked ~ label {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 input[type=radio].with-font:checked ~ label:before {
@@ -3525,7 +3527,7 @@ input[type=radio].with-font:checked ~ label:before {
 }
 
 input[type=radio].with-font:focus ~ label {
-    background-color: #ffe402;
+    background-color: #ff4500;
 }
 
 .w-cal {
@@ -3682,7 +3684,7 @@ input[type=radio].with-font:focus ~ label {
     padding: 5px 19px;
     display: inline-block;
     margin: 0 0 10px 5px;
-    background-color: #ffe402;
+    background-color: #ff4500;
     color: #fff;
     transition: all 0.3s;
     -webkit-transition: all 0.3s;
@@ -3704,7 +3706,7 @@ input[type=radio].with-font:focus ~ label {
 
 blockquote {
     background-color: #f9f9f9;
-    border-left: 3px solid #ffe402;
+    border-left: 3px solid #ff4500;
     padding: 25px 30px;
     display: inline-block;
     width: 100%;
@@ -3724,7 +3726,7 @@ blockquote h6 {
     float: right;
     font-size: 12px;
     text-transform: uppercase;
-    color: #ffe402;
+    color: #ff4500;
     font-weight: 600;
     letter-spacing: 0.96px;
 }
@@ -3828,7 +3830,7 @@ blockquote h6 {
 }
 
 .blog-date a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .blog-title a {
@@ -3841,7 +3843,7 @@ blockquote h6 {
 }
 
 .blog-title a:hover {
-    color: #ffe402;
+    color: #ff4500;
 }
 
 .blog-comment > .blog-comment {
@@ -3856,7 +3858,7 @@ blockquote h6 {
 .blog-date .comment-reply {
     float: right;
     font-size: 14px;
-    color: #ffe402;
+    color: #ff4500;
     font-style: italic;
     font-weight: 600;
     margin: 0;
@@ -3968,7 +3970,7 @@ blockquote h6 {
 }
 
 .race1-fill-btn .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
@@ -4035,7 +4037,7 @@ blockquote h6 {
 }
 
 .race2-fill-btn .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
@@ -4103,7 +4105,7 @@ blockquote h6 {
 }
 
 .race3-fill-btn .fill-btn:hover {
-    background-color: #ffe402;
+    background-color: #ff4500;
     box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
     color: #201f1f;
 }
