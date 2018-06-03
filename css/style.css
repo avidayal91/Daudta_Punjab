@@ -1135,6 +1135,10 @@ header.fixed .menuBar .navbar-right {
     line-height: 122px;
 }
 
+.banner h3 {
+    font-style: italic;
+}
+
 .banner .slideout {
     position: relative;
     left: 66px;
