@@ -1953,7 +1953,8 @@ header.fixed .menuBar .navbar-right {
 
 .notification {
     position: relative;
-    background-color: gainsboro;
+    /*background-color: rgb(255, 114, 0,);*/
+    
 }
 
 .notification .titleTop,
@@ -1966,7 +1967,7 @@ header.fixed .menuBar .navbar-right {
     top: 0;
     bottom: 0;
     opacity: 0.5;
-    background: url('http://placehold.it/1920x436') no-repeat center;
+    background: url('../images/notifications_bg.png') no-repeat center;
     width: 100%;
     height: 100%;
 }
@@ -2484,8 +2485,8 @@ header.fixed .menuBar .navbar-right {
     position: absolute;
     top: 0;
     bottom: 0;
-    opacity: 0.05;
-    background: url('http://placehold.it/1920x1141') no-repeat center;
+    opacity: 0.08;
+    background: url('../images/sponsor_bg.jpg') no-repeat center;
     width: 100%;
     height: 100%;
 }
@@ -2694,7 +2695,6 @@ header.fixed .menuBar .navbar-right {
     top: 0;
     bottom: 0;
     opacity: 0.13;
-    background: url('http://placehold.it/1920x677') no-repeat top center;
     background-size: cover;
     width: 100%;
     height: 100%;
