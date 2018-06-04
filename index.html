@@ -364,9 +364,9 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="subscribe btm-brdr" style="margin-bottom: 30px">
-                            <form>
-                                <input type="text" placeholder="Example@example.com" />
-                                <button type="button" class="fill-btn">Subscribe</button>
+                            <form name="submit-to-googlesheet">
+                                <input name="email" type="email" placeholder="abc@example.com" required>
+                                <button type="submit" class="fill-btn">Subscribe</button>
                             </form>
                         </div>
                     </div>
@@ -447,7 +447,25 @@
     <script type="text/javascript" src="js/waypoints.min.js"></script>
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+    
+    
+    <!--- form submission-->
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    
+    <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyz8Twbfl51qaw-gSw7er4qG_9kt8FanHU5z2XGyKNo84XGLTU/exec'
+    const form = document.forms['submit-to-google-sheet']
 
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => console.log('Success!', response))
+            .catch(error => console.error('Error!', error.message))
+    })
+    </script>
+    
 </body>
 
 </html>
