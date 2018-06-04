@@ -41,12 +41,12 @@ body {
 }
 ::-moz-selection {
     color: #fff;
-    background: #ffe402;
+    background: #ff9d00;
 }
 
 ::selection {
     color: #fff;
-    background: #ffe402;
+    background: #ff9d00;
 }
 
 
@@ -140,7 +140,7 @@ body>.navbar .brand:hover {
     text-align: center;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
     background: #000000;
-    border-bottom: 7px solid #ffe402;
+    border-bottom: 7px solid #ff9d00;
 }
 
 .jumbotron h1 {
@@ -192,8 +192,8 @@ body>.navbar .brand:hover {
 }
 .menu .btn-success:last-of-type {
     background-color: transparent;
-    border: 2px solid #ffe402;
-    color: #ffe402;
+    border: 2px solid #ff9d00;
+    color: #ff9d00;
 }
 
 .menu .btn-success:last-of-type:hover {
@@ -251,7 +251,7 @@ body>.navbar .brand:hover {
 }
 
 a {    
-    color: #ffe402;
+    color: #ff9d00;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -265,12 +265,12 @@ a:hover {
 a:active, a:focus {
     outline: none;
     text-decoration: none;
-    color: #ffe402;
+    color: #ff9d00;
 }
 
 .btn-success {
-    background-color: #ffe402;
-    border-color: #ffe402;
+    background-color: #ff9d00;
+    border-color: #ff9d00;
     transition: all 0.5s ease-in-out;
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -304,7 +304,7 @@ code {
     padding: 25px 30px;
 }
 .h3, h3, .page-header>h1 {
-    color: #ffe402;
+    color: #ff9d00;
     font-weight: bold;
     font-size: 22px;
     text-transform: uppercase;
@@ -322,7 +322,7 @@ code {
     background-color: #fff;
 }
 #overview .table-of-content ul li {
-    color: #ffe402;
+    color: #ff9d00;
 }
 #overview .table-of-content ul.menu.key-features li {
     color: #1f1f1f;
@@ -331,8 +331,8 @@ code {
     max-width: 270px;
 }
 .prettyprint.linenums {
-    border-left: 3px solid #ffe402;
+    border-left: 3px solid #ff9d00;
 }
 header p {
-    color: #ffe402;
+    color: #ff9d00;
 }

@@ -427,7 +427,7 @@
         border: 0 !important;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #ff4500;
+        background-color: #ff9d00;
         width: 35px;
     }
     .navbar-toggle .icon-bar+.icon-bar {
@@ -875,7 +875,7 @@
         padding-bottom: 0;
     }
     .button-group .button.is-checked {
-        /*/background: #ffe402;*/
+        /*/background: #ff9d00;*/
     }
     .button-group .button:last-child::before {
         width: 0;
