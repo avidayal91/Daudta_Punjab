@@ -428,10 +428,13 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="subscribe btm-brdr" style="margin-bottom: 30px">
-                            <form name="submit-to-google-sheet">
+                            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwTSR2lDeLalHIVjy-ocRu0zhtmB6_ypHJ2nBK1/exec">
                                 <input name="email" type="email" placeholder="abc@example.com" required>
                                 <button type="submit" class="fill-btn">Subscribe</button>
                             </form>
+                            <div class= "notification" style="display:none;" id="thankyou_message">
+                                <h3>Thanks for subscribing!</h3>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -512,23 +515,12 @@
     <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
     
+    <!-- used this link form form: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
     
-    <!--- form submission-->
-    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
-    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
-    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
     
-    <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbzsi4LfMOclyfV8cgpF8ZzxajQgqzPWHxcY836Ge9y1K_cc19uw/exec'
-    const form = document.forms['submit-to-google-sheet']
-
-    form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            .then(response => console.log('Success!', response))
-            .catch(error => console.error('Error!', error.message))
-    })
-    </script>
+    
     
 </body>
 
