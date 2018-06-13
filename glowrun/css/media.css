@@ -427,7 +427,7 @@
         border: 0 !important;
     }
     .navbar-default .navbar-toggle .icon-bar {
-        background-color: #ff9d00;
+        background-color: #ef1f87;
         width: 35px;
     }
     .navbar-toggle .icon-bar+.icon-bar {
@@ -503,7 +503,7 @@
         background: transparent;
         min-height: calc(100vh - 79px) !important;
         height: 100% !important;
-        background: rgb(255, 255, 255);
+        background: rgb(0, 0, 0);
         z-index: 11;
     }
     .menuBar .navbar-right {
@@ -875,7 +875,7 @@
         padding-bottom: 0;
     }
     .button-group .button.is-checked {
-        /*/background: #ff9d00;*/
+        /*/background: #ef1f87;*/
     }
     .button-group .button:last-child::before {
         width: 0;
