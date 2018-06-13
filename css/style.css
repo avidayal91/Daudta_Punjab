@@ -11,6 +11,7 @@
 5. Latest result css
 5.  Box css
 6.  About css
+6.  our-team css
 7.  Feature css
 8.  Class css
 9.  Gallery css
@@ -1382,6 +1383,7 @@ header.fixed .menuBar .navbar-right {
     margin: 10px;
 }
 
+
 .boxInfo {
     position: absolute;
     bottom: 30px;
@@ -1409,7 +1411,7 @@ header.fixed .menuBar .navbar-right {
     padding-right: 5px;
     background-color: rgb(0, 0, 0, 0.5);
     text-transform: uppercase;
-    text-align: right;
+    text-align: left;
     font-style: italic;
     font-family: 'Passion One', cursive;
     position: relative;
@@ -1428,6 +1430,32 @@ header.fixed .menuBar .navbar-right {
     -webkit-transform: skew(-40deg);
     -moz-transform: skew(-40deg);
     -ms-transform: skew(-40deg);
+}
+
+.black_overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(32, 31, 31, 0.8);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.box:hover .black_overlay {
+  height: 100%;
+}
+
+.overlay_text {
+  color: #fff;
+  position: relative;
+  top: 50%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: left;
 }
 
 
@@ -1450,6 +1478,44 @@ header.fixed .menuBar .navbar-right {
 .about .titleTop {
     margin-left: 12px;
 }
+
+/* 6. our-team CSS */
+
+.our-goal {
+    position: relative;
+    /*background-color: #201f1f;*/
+    
+}
+
+.our-goal .teamBg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.08;
+    background: url('../images/our_goal_bg.jpg') no-repeat center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.our-goal p {
+    margin-bottom: 35px;
+    font-style: italic;
+}
+
+.our-goal p:last-child {
+    margin-bottom: 50px;
+}
+
+.our-goal .titleTop {
+    margin-left: 12px;
+}
+    
+.our-goal .sectionTitle {
+    /* color: #fff; */
+    
+}
+    
 
 
 /* 7. Feature CSS */
@@ -3178,7 +3244,7 @@ header.fixed .menuBar .navbar-right {
     position: absolute;
     top: 0;
     left: 0;
-    background: url('../images/home_banner_2.jpg') no-repeat fixed bottom center;
+    background: url('../images/home_banner_2.jpg') no-repeat fixed center;
     opacity: 0.3;
 }
 
