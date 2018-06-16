@@ -1168,6 +1168,7 @@ header.fixed .menuBar .navbar-right {
     left: -50px;
 }
 
+
 .banskew {
     display: inline-block;
     width: 100%;
@@ -1283,7 +1284,7 @@ header.fixed .menuBar .navbar-right {
 .updates h3 {
     text-align: center;
     font-weight: 900;
-    color: #ffe400;
+    color: #fff;
     font-style: italic;
 }
 
@@ -1292,6 +1293,10 @@ header.fixed .menuBar .navbar-right {
     font-weight: 600;
     color: #fff;
     font-style: italic;
+}
+
+.coming-soon h3 {
+    color: #ffe400;
 }
 
 
