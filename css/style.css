@@ -1045,6 +1045,7 @@ p {
 }
 
 .menuBar .navbar-default .navbar-nav>.active>a,
+.menuBar .navbar-default .navbar-nav>li>a.active-page,
 .menuBar .navbar-default .navbar-nav>.active>a:focus,
 .menuBar .navbar-default .navbar-nav>.active>a:hover,
 .menuBar .navbar-default .navbar-nav>li>a:focus,
