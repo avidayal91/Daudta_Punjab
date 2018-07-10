@@ -8,7 +8,15 @@
 3.  site head css
 4.  Banner css
 5.  Updates css
-6.  Race-cards css
+6.  Intro css
+7.  Race-cards css
+8.  Run Icons css
+9.  Sponsors css
+10. inner pages css
+-------- race cetgories pages begins -------
+11. Race categories css
+
+
 
 
 5. Latest result css
@@ -1326,7 +1334,43 @@ header.fixed .menuBar .navbar-right {
     color: #201f1f;
 }
 
-/* 6. race-cards css */
+
+/* 6. Intro css */
+
+.intro {
+    position: relative;
+    background-color: #6a00a8;
+    
+}
+
+.intro .actionBg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    background: url('../images/glow-run_pattern.jpg') no-repeat bottom;
+    width: 100%;
+    /*height: 100%;*/
+}
+
+
+.intro p {
+    margin-bottom: 35px;
+    font-style: italic;
+    color: #fff;
+}
+
+.intro p:last-child {
+    margin-bottom: 50px;
+}
+
+.intro .titleTop {
+    margin-left: 12px;
+}
+
+
+
+/* 7. race-cards css */
 
 .race-cards {
     position: relative;
@@ -1576,6 +1620,15 @@ header.fixed .menuBar .navbar-right {
     font-style: italic;
 }
 
+strong {
+    font-weight: 900;
+}
+
+.element p span {
+    font-size: 0.8rem;
+    
+}
+
 .element-btn {
     float: left;
     clear: both;
@@ -1635,71 +1688,536 @@ header.fixed .menuBar .navbar-right {
     box-shadow: 0px 10px 50px -10px rgb(32, 31, 31);
 }
 
+/*8. Run Icons css*/
 
-/* ----------------- old css -------------------------- */
-
-
-/* 5. latest-result css */
-
-.latest-result {
+.race-icons {
     position: relative;
-    background-color: #9cc16e;
+    background-color: #201f1f;
 }
 
-.latest-result .titleTop,
-.latest-result .sectionTitle {
-    color: #fff;
-}
-
-.latest-result .actionBg {
+.race-icons .actionBg {
     position: absolute;
     top: 0;
     bottom: 0;
-    opacity: 0.2;
-    background: url('../images/upcoming.jpg') no-repeat center;
+    opacity: 0.8;
+    background: url('../../images/race-hard_banner.jpg') no-repeat center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.spacer {
+    display: inline-block;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-image: -moz-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(239, 31, 135) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 0, 0, 0)), color-stop(15%, rgba(255, 0, 0, 0)), color-stop(50%, rgb(239, 31, 135)), color-stop(85%, rgba(255, 0, 0, 0)), color-stop(100%, rgba(255, 0, 0, 0)));
+    background-image: -webkit-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(239, 31, 135) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(239, 31, 135) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: -ms-linear-gradient(left, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(239, 31, 135) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, rgb(239, 31, 135) 50%, rgba(255, 0, 0, 0) 85%, rgba(255, 0, 0, 0) 100%);
+}
+
+.iconsSlide .item {
+    text-align: center;
+}
+
+.iconsSlide .item p {
+    color: #fff;
+    font-style: italic;
+    margin-top: 52px;
+}
+
+.iconsSlide .item h4 {
+    font-weight: 900;
+    color: #ef1f87;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-top: 52px;
+}
+
+.iconsSlide .item h5 {
+    color: #737373;
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.iconsSlide .item img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.iconsSlide .owl-nav .owl-prev,
+.iconsSlide .owl-nav .owl-next {
+    display: inline-block !important;
+    font-size: 0;
+    width: 60px;
+    background-color: #ffe400;
+    transform: skew(-29.6deg);
+    -webkit-transform: skew(-29.6deg);
+    -moz-transform: skew(-29.6deg);
+    -o-transform: skew(-29.6deg);
+    box-shadow: 0px 10px 50px -10px rgba(0, 0, 0, 0.5);
+}
+
+.iconsSlide .owl-nav .owl-next:before {
+    font-family: FontAwesome;
+    content: "\f178";
+    display: inline-block;
+    font-size: 30px;
+    color: #201f1f;
+    line-height: normal;
+    transform: skew(29.6deg);
+    -webkit-transform: skew(29.6deg);
+    -moz-transform: skew(29.6deg);
+    -o-transform: skew(29.6deg);
+    padding: 9px 15px;
+}
+
+.iconsSlide .owl-nav .owl-prev {
+    margin-right: 25px;
+}
+
+.iconsSlide .owl-nav .owl-prev:before {
+    font-family: FontAwesome;
+    content: "\f177";
+    display: inline-block;
+    font-size: 30px;
+    color: #201f1f;
+    line-height: normal;
+    transform: skew(29.6deg);
+    -webkit-transform: skew(29.6deg);
+    -moz-transform: skew(29.6deg);
+    -o-transform: skew(29.6deg);
+    padding: 9px 15px;
+}
+
+.iconsSlide .owl-nav {
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+/* 9. Sponsors css */
+
+.sponsors {
+    position: relative;
+    background-color: #6a00a8;
+}
+
+.sponsors .actionBg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    background: url('../images/glow-run_pattern.jpg') no-repeat bottom;
     width: 100%;
     /*height: 100%;*/
 }
+.sponsors.sponsors-list .owl-carousel .owl-item img,
+.hot-news figure {
+    width: 100%;
+    margin: 0 0 30px;
+}
 
-.latest-result h3 {
-    text-align: center;
+.sponsors.sponsors-list .owl-carousel .owl-item .news-comments img,
+.hot-news .news-comments img,
+.news-comments a img {
+    width: auto;
+    margin: 2px 6px 0 0;
+    float: left;
+}
+
+.sponsors .item h4 {
+    color: #ef1f87;
     font-weight: 900;
+    text-transform: uppercase;
+    font-style: italic;
+    margin-bottom: 13px;
+}
+
+.sponsors-intro {
+    font-style: italic;
+    padding-right: 20%;
     color: #fff;
+}
+
+.sponsors-list .owl-carousel .owl-item img {
+    display: inline-block;
+    width: 73%;
+    margin: 80px 0 40px;
+}
+
+.item {
+    padding: 0 15px;
+}
+
+.owl-carousel .item .element {
+    margin-bottom: 85px;
+}
+
+
+.sponsors-list .owl-carousel.owl-loaded {
+    display: inline-block;
+    width: 100%;
+    padding-top: 56px;
+}
+
+.sponsors-list .owl-nav .owl-prev,
+.sponsors-list .owl-nav .owl-next {
+    display: block !important;
+    position: absolute;
+    top: -30px;
+    font-size: 0;
+    background-color: #ffe400;
+    transform: skew(-29.6deg);
+    -webkit-transform: skew(-29.6deg);
+    -moz-transform: skew(-29.6deg);
+    -o-transform: skew(-29.6deg);
+    box-shadow: 0px 15px 20px -12px rgba(0, 0, 0, 0.5);
+}
+
+.sponsors-list .owl-nav .owl-next {
+    right: 0;
+}
+
+.sponsors-list .owl-nav .owl-next:before {
+    font-family: FontAwesome;
+    content: "\f178";
+    display: inline-block;
+    font-size: 30px;
+    color: #201f1f;
+    line-height: normal;
+    transform: skew(29.6deg);
+    -webkit-transform: skew(29.6deg);
+    -moz-transform: skew(29.6deg);
+    -o-transform: skew(29.6deg);
+    padding: 9px 15px;
+}
+
+.sponsors-list .owl-nav .owl-prev {
+    left: auto;
+    right: 75px;
+}
+
+.sponsors-list .owl-nav .owl-prev:before {
+    font-family: FontAwesome;
+    content: "\f177";
+    display: inline-block;
+    font-size: 30px;
+    color: #201f1f;
+    line-height: normal;
+    transform: skew(29.6deg);
+    -webkit-transform: skew(29.6deg);
+    -moz-transform: skew(29.6deg);
+    -o-transform: skew(29.6deg);
+    padding: 9px 15px;
+}
+
+.sponsors-list .fill-btn {
+    width: 90%;
+    transform: translate(0%, 0);
+    -webkit-transform: translate(0%, 0);
+    -moz-transform: translate(0%, 0);
+    -ms-transform: translate(0%, 0);
+    position: static;
+    position: absolute;
+    left: 3%;
+    top: 0;
+    line-height: normal;
+    height: 50px;
+    margin: 0 15px;
+}
+
+.sponsors-list .fill-btn.circled {
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 5;
+    }
+    75% {
+        opacity: 7.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 5;
+    }
+    75% {
+        opacity: 7.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.sponsors-list .element .fill-btn.circled {
+    left: 58%;
+}
+
+.sponsors-list .element .fill-btn.circled:last-child {
+    right: 3%;
+    left: auto;
+}
+
+.sponsors-list .element:hover .fill-btn {
+    width: 199px;
+    float: left;
+}
+
+.sponsors-list .element:hover .fill-btn.circled {
+    width: 50px;
+    visibility: visible;
+    opacity: 1;
+}
+
+/* 10. Inner pages csss */
+.inner-pages {
+    position: relative;
+}
+
+.inner-banner {
+    overflow: hidden;
+}
+
+.inner-banner .bannerText {
+    left: 0;
+    text-align: left;
+    padding: 90px 0;
+}
+
+.inner-banner .bannerText h1 {
+    color: #ffe400;
+    font-size: 80px;
+    font-style: italic;
+    font-family: 'Passion One', cursive;
+}
+
+.inner-banner .bannerText h3 {
+    color: #fff;
+    position: relative;
+    text-transform: uppercase;
     font-style: italic;
 }
 
-.latest-result h3 span {
-    text-align: center;
+.inner-banner .bannerText p {
+    color: #ffe400;
+    font-style: italic;
+    
+}
+
+
+
+
+ /*11. Race categories css */
+ 
+
+
+.races-banner {
+    background-color: #201f1f;
+    position: relative;
+}
+
+.races-banner:before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/glow-run_pattern.jpg') no-repeat fixed bottom;
+    opacity: 0.3;
+}
+
+.race-categories {
+    position: relative;
+    
+}
+
+.race-categories .race-pic {
+    background-color: transparent;
+    position: relative;
+    padding: 0;
+    box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-bottom: 15px;
+}
+
+.race-info-heading h2 {
+    font-size: 36px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 900;
+    color: #ef1f87;
+    font-style: italic;
+}
+
+.race-info-heading h2 span {
+    font-size: 20px;
     font-weight: 600;
     color: #fff;
+}
+
+.race-info-detail {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.race-info-detail h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ef1f87;
     font-style: italic;
 }
 
-
-.latest-result-fill-btn {
-    text-align: center;
-    margin-top: 20px;
+.race-info-detail h3 span {
+    font-weight: 600;
+    color: #fff;
 }
 
-.latest-result-fill-btn .fill-btn {
-    position: static;
-    transform: translate(0%, 0%);
-    -webkit-transform: translate(0%, 0%);
-    -moz-transform: translate(0%, 0%);
-    -ms-transform: translate(0%, 0%);
-    float: none;
-    width: 285px;
+.important-notes{
+    margin-top: 40px;
+}
+
+.important-notes p {
+    color: #fff;
+    font-style: italic;
+}
+
+.important-notes p span {
+    color: #ffe400;
+    font-style: italic;
+    font-weight: 900;
+}
+
+
+/*12. Important info css*/
+
+.info-banner {
+    position: relative;
+}
+
+.info-banner:before {
+    content: '';
     display: inline-block;
-    margin: 0 auto;
-    line-height: 50px;
-    padding: 0 5px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('../images/glow-run_pattern.jpg') no-repeat fixed bottom;
+    
 }
 
-.latest-result-fill-btn .fill-btn:hover {
-    background-color: #ef1f87;
-    box-shadow: 0px 10px 50px -10px rgb(254, 227, 1);
-    color: #201f1f;
+.bib-expo {
+    position: relative;
+    
 }
+
+
+
+
+.bib-expo-heading h2 {
+    font-size: 36px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 900;
+    color: #ef1f87;
+    font-style: italic;
+}
+
+.bib-expo-heading h2 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.bib-expo-detail {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+.bib-expo-detail h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ef1f87;
+    font-style: italic;
+}
+
+.bib-expo-detail h3 span {
+    font-weight: 600;
+    color: #fff;
+}
+
+.event-info {
+    position: relative;
+    
+}
+
+.event-info-heading h2 {
+    font-size: 36px;
+    line-height: 30px;
+    text-align: left;
+    font-weight: 900;
+    color: #ef1f87;
+    font-style: italic;
+}
+
+.event-info-heading h2 span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.event-info-detail {
+    margin-bottom: 60px;
+}
+
+.event-info-detail h3 {
+    font-size: 20px;
+    font-weight: 900;
+    color: #ef1f87;
+    font-style: italic;
+}
+
+.event-info-detail h3 span {
+    font-weight: 600;
+    color: #fff;
+}
+
+
+
+
+
+/* ----------------- old css -------------------------- */
 
 
 /* 5. Boxes CSS */
@@ -2179,7 +2697,7 @@ header.fixed .menuBar .navbar-right {
 
 .products p {
     font-style: italic;
-    color: #737373;
+    color: #fff;
 }
 
 .procap {
@@ -3243,50 +3761,8 @@ header.fixed .menuBar .navbar-right {
 
 /* 18. inner Page css */
 
-.inner-pages {
-    position: relative;
-}
-
-.inner-banner {
-    overflow: hidden;
-}
-
-.about-banner {
-    background-color: #201f1f;
-    position: relative;
-}
-
-.about-banner:before {
-    content: '';
-    display: inline-block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: url('../images/home_banner_2.jpg') no-repeat fixed center;
-    opacity: 0.3;
-}
-
-.inner-banner .bannerText {
-    left: 0;
-    text-align: left;
-    padding: 90px 0;
-}
-
-.inner-banner .bannerText h1 {
-    color: #ffd322;
-    font-size: 80px;
-    font-style: italic;
-    font-family: 'Passion One', cursive;
-}
 
 
-.inner-banner .bannerText p {
-    color: #ffd322;
-    font-style: italic;
-    
-}
 
 .inner-banner .bannerText ol {
     background-color: transparent;
