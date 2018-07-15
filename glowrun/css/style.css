@@ -1832,7 +1832,8 @@ strong {
 }
 
 .sponsors .item h4 {
-    color: #ef1f87;
+    color: #fff;
+    text-align: center;
     font-weight: 900;
     text-transform: uppercase;
     font-style: italic;
@@ -2025,6 +2026,7 @@ strong {
     position: relative;
     text-transform: uppercase;
     font-style: italic;
+    font-weight: 300;
 }
 
 .inner-banner .bannerText p {
@@ -2054,11 +2056,14 @@ strong {
     top: 0;
     left: 0;
     background: url('../images/glow-run_pattern.jpg') no-repeat fixed bottom;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 .race-categories {
     position: relative;
+    background: #201f1f;
+    background: linear-gradient(to right, #201f1f, #ef1f87);
+    
     
 }
 
@@ -2178,6 +2183,8 @@ strong {
 
 .event-info {
     position: relative;
+    background: #201f1f;
+    background: linear-gradient(to bottom, #201f1f, #8700ff);
     
 }
 
@@ -2425,7 +2432,7 @@ strong {
 
 .gallery {
     position: relative;
-    background-image: url('../images/gallery_bg.jpg');
+    background-image: url('../../images/gallery_bg.jpg');
     background-repeat: no-repeat;
     padding-bottom: 85px;
 }
