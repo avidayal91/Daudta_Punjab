@@ -1295,4 +1295,7 @@
     .blog-comment-form .form-Box .fill-btn {
         width: 100%;
     }
+    .inner-banner .bannerText h1 {
+        font-size: 60px;
+    }
 }

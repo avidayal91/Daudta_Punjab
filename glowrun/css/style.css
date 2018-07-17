@@ -779,6 +779,10 @@ h6 {
     margin-bottom: 70px;
 }
 
+.mar-bottom-10 {
+    margin-bottom: 10px;
+}
+
 .pad-top-120 {
     padding-top: 120px;
 }
@@ -2016,7 +2020,7 @@ strong {
 
 .inner-banner .bannerText h1 {
     color: #ffe400;
-    font-size: 80px;
+    /*font-size: 80px;*/
     font-style: italic;
     font-family: 'Passion One', cursive;
 }
@@ -2028,6 +2032,8 @@ strong {
     font-style: italic;
     font-weight: 300;
 }
+
+
 
 .inner-banner .bannerText p {
     color: #ffe400;
@@ -2062,7 +2068,7 @@ strong {
 .race-categories {
     position: relative;
     background: #201f1f;
-    background: linear-gradient(to right, #201f1f, #ef1f87);
+    background: linear-gradient(to right, #201f1f, #e21b7f);
     
     
 }
@@ -2144,11 +2150,10 @@ strong {
 
 .bib-expo {
     position: relative;
+    background: #201f1f;
+    background: linear-gradient(to bottom, #370c5e, #201f1f);*/
     
 }
-
-
-
 
 .bib-expo-heading h2 {
     font-size: 36px;
@@ -2170,7 +2175,7 @@ strong {
 }
 
 .bib-expo-detail h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     color: #ef1f87;
     font-style: italic;
@@ -2208,7 +2213,7 @@ strong {
 }
 
 .event-info-detail h3 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 900;
     color: #ef1f87;
     font-style: italic;
