@@ -1279,6 +1279,7 @@ header.fixed .menuBar .navbar-right {
     font-weight: 900;
     color: #fff;
     font-style: italic;
+    margin-bottom: 30px;
 }
 
 .upcoming h3 span {
@@ -1286,8 +1287,14 @@ header.fixed .menuBar .navbar-right {
     font-weight: 600;
     color: #fff;
     font-style: italic;
+    
 }
 
+.upcoming p {
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 15px;
+}
 
 .upcoming-fill-btn {
     text-align: center;
@@ -2149,12 +2156,13 @@ header.fixed .menuBar .navbar-right {
     font-style: italic;
 }
 
-.notifification h3 span {
+.notification h3 span {
     text-align: center;
     font-weight: 600;
     color: #fff;
     font-style: italic;
 }
+
 
 
 .notification-fill-btn {

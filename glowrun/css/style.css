@@ -1299,6 +1299,7 @@ header.fixed .menuBar .navbar-right {
     font-weight: 900;
     color: #fff;
     font-style: italic;
+    margin-bottom: 30px;
 }
 
 .updates h3 span {
@@ -1306,6 +1307,12 @@ header.fixed .menuBar .navbar-right {
     font-weight: 600;
     color: #fff;
     font-style: italic;
+}
+
+.updates p {
+    color: #fff;
+    font-style: italic;
+    margin-bottom: 15px;
 }
 
 .coming-soon h3 {
@@ -1344,6 +1351,7 @@ header.fixed .menuBar .navbar-right {
 .intro {
     position: relative;
     background-color: #6a00a8;
+    
     
 }
 
