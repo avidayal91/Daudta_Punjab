@@ -177,18 +177,23 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                         <div class="sponsor-subscribe btm-brdr" style="margin-bottom: 30px">
-                            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyXwDs_7HBT9qEBUKBknEbJP4QNBJQ95zXmGVZN/exec">
-                                <input name="name" type="text" placeholder="Name" required>
-                                <input name="company" type="text" placeholder="Company" required>
-                                <input name="email" type="email" placeholder="abc@example.com" required>
-                                <button type="submit" class="fill-btn">Subscribe</button>
+                            <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwV4EG1EExWkrxBzdrmcgOIz4khnPFUumlTzK0ZNRoQPBguMA8/exec">
+                                <div class="form-elements">
+                                    <input name="name" type="text" placeholder="Name" required>
+                                    <input name="company" type="text" placeholder="Company" required>
+                                    <input name="phone" type="tel" placeholder="9xxxx-xxxxx">
+                                    <input name="email" type="email" placeholder="abc@example.com" required>
+                                    <button type="submit" class="fill-btn">Subscribe</button>
+                                </div>
+                                
+                                <div class="thankyou_message notification" style="display:none;" id="thankyou_message">
+                                    <h3>Thank you for submitting info!</h3>
+                                </div>
                             </form>
                             
                         </div>
                     </div>
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 sponsorship" style="display:none;" id="thankyou_message">
-                            <h3>Thanks for submitting your info!</h3>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -270,7 +275,7 @@
     
     <!-- used this link form form: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
     <script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+src="js/form-submission-handler.js"></script>
 
 </body>
 

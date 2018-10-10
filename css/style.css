@@ -1256,7 +1256,7 @@ header.fixed .menuBar .navbar-right {
 
 .upcoming {
     position: relative;
-    background-color: #6a00a8;
+/*    background-color: #6a00a8;*/
 }
 
 .upcoming .titleTop,
@@ -1268,7 +1268,7 @@ header.fixed .menuBar .navbar-right {
     position: absolute;
     top: 0;
     bottom: 0;
-    opacity: 0.2;
+    opacity: 1;
     background: url('../images/upcoming.jpg') no-repeat center;
     width: 100%;
     /*height: 100%;*/

@@ -131,19 +131,14 @@
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="titleText">
                                 <h6 class="titleTop">UPCOMING RACE</h6>
-                                <h2 class="sectionTitle">GLOW RUN <span>4</span></h2>
+                                <h2 class="sectionTitle">FREEDOM ULTRA <span>RUN</span></h2>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row wow animated fadeInUp" data-wow-delay="0.5s">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <h3>EVENT CANCELLED</h3>
-                        <p>It is with the deepest regret that we must announce the cancellation of the Run The Night - Glow Run 2018 Edition due to circumstances beyond our control.</p>
-                        <p>We sincerely apologize for any inconvenience this may cause and look forward to greeting you, and your friends, next year.</p>
-                        <p>We enjoyed an excellent response and support from the running community in all our events. It's unfortunate that this particular edition of Run The Night - Glow Run could not materialize. But we promise to be back next year with more features and engagement for runners.</p>
-                        <p>We have already stopped taking registrations today forth and issuing full refunds for those who already registered. Registered participants will receive an email within the next 2-3 days to confirm their refund has been issued. At that point, it’ll take 10-12 banking days for the funds to be available.</p>
-                        <p>We do express apology once again for this cancelation which was not at all anticipated.</p>
+                        <h3>REGISTRATIONS OPENED</h3>
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <div class="upcoming-fill-btn">
@@ -462,13 +457,16 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                         <div class="subscribe btm-brdr" style="margin-bottom: 30px">
-                            <form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbwTSR2lDeLalHIVjy-ocRu0zhtmB6_ypHJ2nBK1/exec">
-                                <input name="email" type="email" placeholder="abc@example.com" required>
-                                <button type="submit" class="fill-btn">Subscribe</button>
+                            <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyB2-R_2R5bMjuKBuRnk7u8XRRFEFf8ceGIztFDkyW_r0Pr9_A/exec">
+                                <div class="form-elements">
+                                    <input name="email" type="email" placeholder="abc@example.com" required>
+                                    <button type="submit" class="fill-btn">Subscribe</button>
+                                </div>
+                                <div class="thankyou_message notification" style="display:none;" id="thankyou_message">
+                                    <h3>Thanks for subscribing!</h3>
+                                </div>
                             </form>
-                            <div class= "notification" style="display:none;" id="thankyou_message">
-                                <h3>Thanks for subscribing!</h3>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
@@ -550,8 +548,7 @@
     <script type="text/javascript" src="js/jquery.fancybox.js"></script>
     
     <!-- used this link form form: https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server -->
-    <script data-cfasync="false" type="text/javascript"
-src="https://cdn.rawgit.com/dwyl/learn-to-send-email-via-google-script-html-no-server/master/form-submission-handler.js"></script>
+    <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
     
     
     
